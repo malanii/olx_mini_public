@@ -1,0 +1,23 @@
+@import '../../../../styles/styles';
+
+.itemWrapper {
+    width: 80%;
+    margin: auto;
+    @include flex-between;
+    padding: 0.8em;
+    border-bottom: 1px solid $main-color;
+}
+.title {
+    @include text-medium;
+    color: $main-color;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+}
+.text {
+    width: 25%;
+    @include text-small;
+    color: $main-color;
+    text-align: right;
+    margin: 0;
+}

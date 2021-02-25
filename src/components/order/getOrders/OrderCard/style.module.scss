@@ -1,0 +1,35 @@
+@import '../../../../styles/styles';
+.wrapper {
+    background-color: $main-components-background;
+    padding: 1em 2em;
+    @include border-style;
+    width: 40%;
+}
+.orderedItemsWrapper {
+    background: linear-gradient(125deg, rgba(255, 255, 255, 1) 24%, rgba(240, 234, 253, 1) 93%);
+    border-radius: 20px;
+    @include flex-between;
+    margin: 0.5em 0;
+    padding: 1em 1.5em;
+}
+.header {
+    border-bottom: 1px solid #c6c1d1;
+}
+.title {
+    @include text-medium;
+}
+.text {
+    @include text-small;
+}
+.orderNumber {
+    color: #c6c1d1;
+    font-size: 0.8em;
+}
+.titleItemWrapper {
+    @include flex-between;
+}
+.orderedItemTitle {
+    @include text-small;
+    color: #888ea3;
+    width: 50%;
+}

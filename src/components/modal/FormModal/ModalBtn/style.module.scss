@@ -1,0 +1,16 @@
+@import '../../../../styles/styles';
+.wrapperBtn {
+    text-align: center;
+}
+.btn {
+    @include text-small;
+    border: 2px solid white;
+    background: linear-gradient(125deg, rgba(223, 231, 254, 1) 7%, rgba(189, 208, 251, 1) 93%);
+    padding: 0.6em 1.2em;
+    border-radius: $button-border-radius;
+}
+.btnDisable {
+    background: #f5f6f7;
+    border: 2px solid #e7eaea;
+    color: grey;
+}

@@ -1,0 +1,22 @@
+@import "../../styles/styles";
+.wrapper {
+  @include flex-center;
+  padding: 0.5vh 0;
+}
+.pageButton {
+  @include text-small;
+  margin: 0 0.2em;
+  color: $main-color;
+}
+.pageButtonActive {
+  border: 2px solid $main-color;
+}
+.pageButton:hover {
+  border: 2px solid $main-color;
+}
+.portionButton {
+  font-size: 2em;
+  margin: 0 0.2em;
+  cursor: pointer;
+  color: $main-color;
+}

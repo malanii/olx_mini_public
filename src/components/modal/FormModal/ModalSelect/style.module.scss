@@ -1,0 +1,6 @@
+@import '../../../../styles/styles';
+.errorText {
+    @include text-small;
+    text-align: center;
+    color: #ff776b;
+}

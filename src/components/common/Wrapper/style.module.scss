@@ -1,0 +1,6 @@
+@import "../../../styles/styles";
+.wrapper {
+  @include content-width(80%, center);
+  @include content-center;
+  flex-direction: column;
+}

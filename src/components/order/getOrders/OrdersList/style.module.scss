@@ -1,0 +1,25 @@
+@import '../../../../styles/styles';
+.wrapper{
+    @include flex-around;
+    flex-wrap: wrap;
+}
+.container {
+    background-color: $main-components-background;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 1.5em 1em;
+    @include flex-between;
+    width: 35%;
+}
+.icon {
+    color: #ced3da;
+}
+.orderInfo {
+  @include text-small;
+    text-align: center;
+}
+.orderDesignElement {
+    width: 5px;
+    height: 2em;
+    border-radius: 5px;
+}

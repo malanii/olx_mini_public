@@ -1,0 +1,12 @@
+@import "../../../styles/styles";
+.wrapper {
+  @include content-center;
+  flex-direction: column;
+}
+.text {
+  @include text-big;
+  margin: 0.5em 0 0;
+}
+.img{
+  width: 30%;
+}

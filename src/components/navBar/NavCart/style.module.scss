@@ -1,0 +1,22 @@
+@import "../../../styles/styles";
+.wrapper {
+  @include flex-center;
+  width: 15%;
+}
+.img {
+  width: 1.8em;
+  height: 1.8em;
+}
+.counter {
+  position: relative;
+  @include text-small;
+  padding: 3px 7px;
+  background-color: $main-components-background;
+  border-radius: 50%;
+  margin-left: -0.5em;
+  margin-bottom: 1em;
+}
+.counterActive {
+  background-color: $additional-color;
+  color: #ffa4d0;
+}

@@ -1,0 +1,25 @@
+@import '../../../../styles/styles';
+.form {
+    width: 100%;
+    margin: auto;
+}
+.input {
+    @include text-small;
+    width: 50%;
+    color: #282955;
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+.input:focus {
+    outline: none;
+    border: 2px solid #282955;
+    border-radius: 10px;
+}
+.errorWrapper {
+    position: absolute;
+    bottom: 1.9em;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 10em;
+}

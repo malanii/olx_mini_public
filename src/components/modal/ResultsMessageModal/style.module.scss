@@ -1,0 +1,9 @@
+@import '../../../styles/styles';
+.wrapper {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 65vh;
+}
+.img {
+  width: 60%;
+}

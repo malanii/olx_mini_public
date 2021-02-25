@@ -1,0 +1,17 @@
+@import "../../styles/styles";
+.pageWrapper {
+  @include flex-center;
+  min-height: 84vh;
+  align-items: flex-start;
+  padding-top: 5vh;
+}
+.wrapper {
+  width: 80%;
+  @include flex-between;
+  flex-direction: column;
+  min-height: 84vh;
+}
+.productsWrapper {
+  @include flex-center;
+  flex-wrap: wrap;
+}

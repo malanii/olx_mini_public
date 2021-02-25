@@ -1,0 +1,14 @@
+@import "../../styles/styles";
+.container{
+  width: 80%;
+  @include border-style;
+  @include flex-center;
+  align-items: flex-start;
+  position: relative;
+}
+.orderItemsWrapper{
+  min-width: 60%;
+  padding: 1em 1em 3em;
+  @include border-style;
+  background-color: $main-components-background;
+}

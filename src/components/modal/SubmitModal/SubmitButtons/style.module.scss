@@ -1,0 +1,21 @@
+@import '../../../../styles/styles';
+.wrapper {
+    @include flex-center;
+}
+.buttonStyle {
+    @include text-medium;
+    color: #4b4165;
+    border-radius: $button-border-radius;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 1px solid #4b4165;
+    box-shadow: -4px 10px 11px -7px #4b4165, 5px 5px 15px 5px rgba(75, 65, 101, 0);
+}
+.buttonStyle:focus {
+    outline: none;
+    box-shadow: 0 0 0 0;
+}
+.buttonStyle:hover {
+    box-shadow: 0 0 0 0;
+}

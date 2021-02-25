@@ -1,0 +1,27 @@
+@import '../../../styles/styles';
+.visible {
+    @include flex-center;
+    flex-direction: column;
+    background-color: white;
+    @include border-style;
+    position: absolute;
+    width: 50%;
+    height: 20em;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-box-shadow: 1px 3px 19px 12px rgba(75, 65, 101, 0.56);
+    box-shadow: 1px 3px 19px 12px rgba(75, 65, 101, 0.56);
+    z-index: 1000;
+}
+.title {
+    @include text-big;
+    color: #4b4165;
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+.invisible {
+    display: none;
+}
+

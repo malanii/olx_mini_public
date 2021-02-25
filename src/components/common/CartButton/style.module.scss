@@ -1,0 +1,22 @@
+@import "../../../styles/styles";
+.btn {
+  font-family: $font-family;
+  color: $main-color;
+  font-weight: bolder;
+  border-radius: $button-border-radius;
+  border: 1px solid $main-color;
+  background-color: $main-components-background;
+  box-shadow: -4px 10px 11px -7px #4871cc, 5px 5px 15px 5px rgba(72, 113, 204, 0);
+}
+.small {
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+.big {
+  font-size: 1em;
+  padding: 1em;
+  margin-top: 2em;
+}
+.btn:hover {
+  box-shadow: 0 0 0 0;
+}

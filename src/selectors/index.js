@@ -1,0 +1,13 @@
+export const getCart = (state) => state.cart;
+export const getProductListing = (state) => state.productListing;
+export const getProductPage = (state) => state.productPage;
+export const openAddProductModal = (state) => state.modal.openedAddProduct;
+export const openEditProductModal = (state) => state.modal.openedEditProduct;
+export const openSubmitModal = (state) => state.modal.openedSubmit;
+export const addingNewProduct = (state) => state.newProduct;
+export const productsOrigins = (state) => state.origins;
+export const editProduct = (state) => state.editProduct;
+export const getMyProducts = (state) => state.myProducts;
+export const order = (state) => state.order;
+export const ordersListing = (state) => state.ordersListing;
+export const orderPage = (state) => state.orderPage;

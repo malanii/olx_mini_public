@@ -1,0 +1,20 @@
+@import "../../../styles/styles";
+.nav {
+  @include flex-center;
+  padding: 0;
+}
+.navItem {
+  @include text-medium;
+  padding: 0.4em 1.3em;
+  position: relative;
+}
+.navItemActive::after {
+  content: "\2022";
+  position: absolute;
+  bottom: -0.6em;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 2em;
+}

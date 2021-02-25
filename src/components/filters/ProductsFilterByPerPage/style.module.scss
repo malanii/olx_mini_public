@@ -1,0 +1,19 @@
+@import "../../../styles/styles";
+.buttonsWrapper {
+  @include flex-center;
+  padding: 1em 0;
+}
+.button {
+  @include text-small;
+  margin-right: 1em;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: $main-color;
+  position: relative;
+}
+.buttonActive{
+  border-bottom: 1px solid $main-color;
+}
+.button:hover{
+  border-bottom: 1px solid $main-color;
+}

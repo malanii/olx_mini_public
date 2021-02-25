@@ -1,0 +1,57 @@
+@import "variables";
+@mixin border-style {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-center {
+  @include flex;
+  justify-content: center;
+}
+@mixin flex-around {
+  @include flex;
+  justify-content: space-around;
+}
+@mixin flex-between {
+  @include flex;
+  justify-content: space-between;
+}
+@mixin flex-end {
+  @include flex;
+  justify-content: flex-end;
+}
+@mixin flex-start {
+  @include flex;
+  justify-content: flex-start;
+}
+@mixin content-center {
+  @include flex-center;
+  min-height: 89vh;
+}
+@mixin content-width($size, $align) {
+  width: $size;
+  margin: auto;
+  text-align: $align;
+}
+@mixin text-properties {
+  font-family: $font-family;
+  color: black;
+}
+@mixin text-small {
+  @include text-properties;
+  font-weight: bolder;
+  font-size: 1em;
+}
+@mixin text-medium {
+  @include text-properties;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+@mixin text-big {
+  @include text-properties;
+  font-size: 1.5em;
+  font-weight: bold;
+}

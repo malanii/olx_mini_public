@@ -1,0 +1,15 @@
+@import "../../../styles/styles";
+.wrapper {
+  width: 17%;
+  background: linear-gradient(
+                  125deg,
+                  rgba(248, 201, 218, 1) 0%,
+                  rgba(255, 250, 215, 1) 74%
+  );
+  @include border-style;
+  padding-top: 1em;
+}
+.img {
+  width: 70%;
+  margin: auto;
+}

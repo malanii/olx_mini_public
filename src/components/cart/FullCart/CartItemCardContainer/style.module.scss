@@ -1,0 +1,15 @@
+@import '../../../../styles/styles';
+.content {
+    @include flex-around;
+    background-color: #f4f8fb;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    position: relative;
+    border: 1px solid #282955;
+}
+.quantityTitleWrapper {
+    @include flex-between;
+    flex-direction: column;
+    min-height: 12vh;
+}

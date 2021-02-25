@@ -1,0 +1,11 @@
+@import "../../styles/styles";
+.wrapper{
+  width: 100%;
+  @include flex-between;
+}
+.formWrapper {
+  width: 40%;
+  @include flex-center;
+  flex-direction: column;
+  padding: 0 2em;
+}

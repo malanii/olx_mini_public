@@ -1,0 +1,49 @@
+@import '../../../styles/styles';
+.container {
+    position: relative;
+    width: 13em;
+    margin: 0 2em 1em;
+    @include border-style;
+    background-color: $main-components-background;
+    box-shadow: 0 4px 39px 11px rgba(72, 113, 204, 0.09);
+}
+.button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2em;
+    height: 2em;
+    background-color: $additional-color;
+    border-top-left-radius: 15px;
+    margin: 0;
+}
+.button:focus {
+    outline: none;
+}
+.icon {
+    color: $main-color;
+    font-size: 0.8em;
+    margin: 1em;
+}
+.text {
+    @include text-small;
+    text-align: center;
+    margin: 0.8em 0 1.6em;
+    padding: 0;
+}
+.title {
+    @include text-small;
+    margin: auto;
+    min-height: 2em;
+    width: 60%;
+    padding: 0.8em 0;
+}
+.originText {
+    @include text-medium;
+    color: $main-color;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.img {
+    width: 100%;
+}

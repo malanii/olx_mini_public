@@ -1,0 +1,28 @@
+@import '../../../styles/styles';
+.wrapper {
+    width: 60%;
+    height: 65vh;
+    @include border-style;
+    position: relative;
+    background-color: white;
+}
+.closeIcon {
+    @include text-medium;
+    border-color: transparent;
+    background-color: transparent;
+    color: #4b4165;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0.4em;
+    right: 1em;
+    margin: 0;
+}
+.closeIcon:focus {
+    outline: none;
+}
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+    .wrapper {
+        width: 70%;
+    }
+}

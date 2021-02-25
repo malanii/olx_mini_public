@@ -1,0 +1,52 @@
+@import "../../../styles/styles";
+.originList {
+  padding: 1em 0 0.5em;
+  margin: 0;
+}
+.originList li {
+  width: 50%;
+  margin: auto;
+  @include text-small;
+  @include flex-between;
+  color: #4b4165;
+  text-transform: capitalize;
+  padding: 0.3em 0;
+}
+.originList li:hover {
+  color: $main-color;
+}
+.checkBox{
+  position: relative;
+}
+.checkBox[type="checkbox" i] {
+  margin: 0;
+  padding: 0;
+}
+.checkBox[type="checkbox"]:before {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background: white;
+  border: 1px solid #acb4c1;
+}
+
+.checkBox[type="checkbox"]:checked:after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  content: "\2714";
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  color: #4b4165;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkBox[type="checkbox"]:checked:before {
+  border: 1px solid white;
+}

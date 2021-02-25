@@ -1,0 +1,14 @@
+@import '../../../styles/styles';
+.wrapper {
+    margin: 0 1.2em;
+}
+.text {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    @include text-medium;
+}
+.text:focus {
+    outline: none;
+}

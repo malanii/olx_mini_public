@@ -1,0 +1,54 @@
+@import "../../../styles/styles";
+.wrapper {
+  position: relative;
+  width: 50%;
+  height: 65vh;
+  @include border-style;
+  background: linear-gradient(
+    125deg,
+    rgba(248, 201, 218, 1) 0%,
+    rgba(255, 250, 215, 1) 74%
+  );
+}
+.container {
+  margin: auto;
+  background-color: $main-components-background;
+  padding: 2em 0;
+  position: relative;
+  border-top-right-radius: 30px;
+}
+.img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @include border-style;
+}
+.title {
+  font-family: $font-family;
+  color: $main-color;
+  font-weight: bolder;
+  border-bottom: 2px solid $main-color;
+  font-size: 1.5em;
+  width: 80%;
+  margin: auto;
+}
+.text {
+  font-family: $font-family;
+  text-transform: uppercase;
+  color: #ffa4d0;
+  font-weight: bold;
+}
+.priceWrapper {
+  background-color: $main-color;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.priceWrapper p {
+  margin: 0.5em 0;
+  font-family: $font-family;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+}

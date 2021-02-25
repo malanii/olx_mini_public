@@ -1,0 +1,32 @@
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/fonts";
+
+html,
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+ul {
+  list-style-type: none;
+}
+.app {
+  text-align: center;
+  background: linear-gradient(
+      to top left,
+      #a1ffff,
+      rgba(255, 153, 150, 0),
+      #ffa0e7
+    ),
+    linear-gradient(to top right, #d19bf7, rgba(255, 153, 150, 0), #ffffe0),
+    rgba(255, 153, 150, 1);
+}
+.content-page-wrapper {
+  @include content-center;
+}
+

@@ -1,0 +1,46 @@
+@import '../../../styles/styles';
+.form {
+    position: relative;
+    padding: 0.5em 0;
+}
+.inputWrapper {
+    @include flex-around;
+    margin: 0.5em 0;
+}
+.formInput {
+    width: 35%;
+    border-radius: 3px;
+    text-align: center;
+    color: #4b4165;
+    background-color: transparent;
+    border: 1px solid $main-color;
+}
+.formElement {
+    color: #4b4165;
+    font-weight: bold;
+}
+.formButton {
+    @include text-small;
+    width: 30%;
+    border: 1px solid $main-color;
+    box-shadow: -4px 6px 11px -7px #4871cc, 5px 5px 15px 5px rgba(72, 113, 204, 0);
+    background-color: transparent;
+    border-radius: 3px;
+    color: $main-color;
+    margin: 0.5em 0;
+}
+.formButton:hover {
+    box-shadow: 0 0 0 0;
+}
+.formInput:focus,
+.formButton:focus {
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}

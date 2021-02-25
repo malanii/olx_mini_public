@@ -1,0 +1,27 @@
+@import '../../../styles/styles';
+.container {
+    @include content-width(60%, center);
+    background-color: $main-components-background;
+    padding: 1em 2em;
+    @include border-style;
+}
+.header {
+    @include flex-around;
+}
+.contentWrapper {
+    @include flex-center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.img {
+    width: 50%;
+}
+.title {
+    @include text-medium;
+    font-weight: bold;
+    margin: auto;
+    color: #282955;
+    width: 50%;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #282955;
+}

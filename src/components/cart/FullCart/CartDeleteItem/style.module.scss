@@ -1,0 +1,14 @@
+.btn {
+    position: absolute;
+    top: -0.5em;
+    right: -0.5em;
+    -webkit-box-shadow: 1px 1px 13px 1px #ccd9e3;
+    box-shadow: 1px 1px 13px 1px #ccd9e3;
+    background-color: white;
+    border-radius: 50%;
+    color: #282955;
+    border: 2px solid transparent;
+}
+.btn:focus {
+    outline: none;
+}

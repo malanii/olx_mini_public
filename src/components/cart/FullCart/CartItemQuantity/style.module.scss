@@ -1,0 +1,14 @@
+@import '../../../../styles/styles';
+.wrapper {
+    width: 50%;
+    position: relative;
+    @include flex-between;
+}
+.btn {
+    @include text-medium;
+    border-radius: 50%;
+    color: #282955;
+    border: 1px solid #282955;
+    background-color: transparent;
+    padding: 0 7px;
+}

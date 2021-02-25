@@ -1,0 +1,9 @@
+@import "../../../styles/styles";
+.title {
+  @include text-medium;
+  border-bottom: 1px solid #acb4c1;
+  color: #4b4165;
+  padding: 0.2em 0;
+  width: 70%;
+  margin: auto;
+}

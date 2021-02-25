@@ -1,0 +1,14 @@
+@import "../../../styles/styles";
+.wrapper {
+  @include flex-end;
+  width: 35%;
+}
+.btn {
+  @include text-medium;
+  margin-right: 1em;
+  padding: 0.6em 2em;
+}
+.btnWhite {
+  background-color: $main-components-background;
+  border-radius: $button-border-radius;
+}

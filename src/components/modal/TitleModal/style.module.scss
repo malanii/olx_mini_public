@@ -1,0 +1,8 @@
+@import "../../../styles/styles";
+.title {
+  @include text-medium;
+  font-size: 2em;
+  margin: 0;
+  color: #4b4165;
+  text-align: left;
+}
